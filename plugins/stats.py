@@ -285,7 +285,7 @@ async def overall_stats(client, CallbackQuery, _):
 **❌ 𝐁𝐥𝐨𝐜𝐤𝐞𝐝 𝐔𝐬𝐞𝐫𝐬 :** {blocked} 
 **👑 𝐒𝐮𝐝𝐨 𝐔𝐬𝐞𝐫𝐬 :** {sudoers} 
 
-**©️ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 :** [Bikash Gadgets Tech](https://t.me/BikashGadgetsTech)
+**©️ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 :** [Villian Gadgets Tech](https://t.me/villen_012)
     
 **🌷 𝐓𝐨𝐭𝐚𝐥 𝐐𝐮𝐞𝐫𝐢𝐞𝐬 :** {total_queries} 
 **🇮🇳 𝐓𝐨𝐭𝐚𝐥 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭𝐬 :** {assistant}
