@@ -138,7 +138,7 @@ class TeleAPI:
                     completed_size = convert_bytes(current)
                     speed = convert_bytes(speed)
                     text = f"""
-🥀 𝐁𝐢𝐤𝐚𝐬𝐡 {MUSIC_BOT_NAME} 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐌𝐞𝐝𝐢𝐚 𝐃𝐨𝐰𝐧𝐋𝐨𝐝𝐞𝐫 🌷
+🥀 ​ꪜ𝓲ꪶꪶ𝓲ꪖ​ꪀ {MUSIC_BOT_NAME} 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐌𝐞𝐝𝐢𝐚 𝐃𝐨𝐰𝐧𝐋𝐨𝐝𝐞𝐫 🌷
 
 🥀 𝐄𝐓𝐀 ➪ {eta}
 
