@@ -23,7 +23,7 @@ def song_markup(_, vidid):
                 text="🌷 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 🌷", url=f"{Bikash.config.SUPPORT_GROUP}",
             ),
             InlineKeyboardButton(
-                text="𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url=f"https://t.me/BikashGedgetsTech"
+                text="𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url=f"https://t.me/villen_012"
             ),
         ],
     ]
