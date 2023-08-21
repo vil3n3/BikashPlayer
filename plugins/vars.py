@@ -85,10 +85,10 @@ async def varsFunc(client, message):
     tg_vid = convert_bytes(config.TG_VIDEO_FILESIZE_LIMIT)
     text = f"""**🇮🇳 𝐌𝐔𝐒𝐈𝐂 𝐁𝐨𝐭 𝐂𝐨𝐧𝐟𝐢𝐠 💡:**
                     
-                ❰ 𝐁𝐢𝐤𝐚𝐬𝐡 ⚜️ 𝐏𝐥𝐚𝐲𝐞𝐫 ❱
+                ❰ 𝓜𝓪𝓭𝓮 𝓑𝔂 𝓥𝓲𝓵𝓵𝓲𝓪𝓷 ❱
                     
 **<u>🌷 𝐁𝐚𝐬𝐢𝐜 𝐂𝐨𝐧𝐟𝐢𝐠 𝐕𝐚𝐫𝐬 🌷:</u>**
-**🌺 𝐁𝐢𝐤𝐚𝐬𝐡 𝐁𝐨𝐭 𝐍𝐚𝐦𝐞** : `{bot_name}`
+**🌺 𝓜𝓪𝓭𝓮 𝓑𝔂 𝓥𝓲𝓵𝓵𝓲𝓪𝓷 ** : `{bot_name}`
 **⏱️ 𝐃𝐮𝐫𝐚𝐭𝐢𝐨𝐧 ** : `{play_duration} 𝐌𝐢𝐧𝐮𝐭𝐞𝐬`
 **🎵 𝐒𝐨𝐧𝐠 𝐃𝐨𝐰𝐧𝐋𝐨𝐚𝐝 𝐃𝐮𝐫𝐚𝐭𝐢𝐨𝐧 ** :` {song} 𝐌𝐢𝐧𝐮𝐭𝐞𝐬`
 **♕︎ 𝐎𝐰𝐧𝐞𝐫 𝐢𝐝** : `{owner_id}`
