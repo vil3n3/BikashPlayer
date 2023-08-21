@@ -23,12 +23,12 @@ def PlayWrapper(command):
         if await is_maintenance() is False:
             if message.from_user.id not in SUDOERS:
                 return await message.reply_text(
-                    "🥀 𝐁𝐨𝐭 𝐈𝐬 𝐔𝐧𝐝𝐞𝐫 𝐌𝐚𝐢𝐧𝐭𝐞𝐧𝐀𝐧𝐜𝐞 , 𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐚𝐢𝐭 𝐅𝐞𝐰  𝐌𝐢𝐧𝐮𝐭𝐞𝐬, 𝐘𝐨𝐮 𝐒𝐞𝐞 𝐓𝐡𝐞 𝐑𝐞𝐚𝐬𝐨𝐧 𝐓𝐡𝐞𝐧 𝐉𝐨𝐢𝐧 [𝐇𝐞𝐫𝐞](https://t.me/Bgt_Chat) 🥀"
+                    "🥀 𝐁𝐨𝐭 𝐈𝐬 𝐔𝐧𝐝𝐞𝐫 𝐌𝐚𝐢𝐧𝐭𝐞𝐧𝐀𝐧𝐜𝐞 , 𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐚𝐢𝐭 𝐅𝐞𝐰  𝐌𝐢𝐧𝐮𝐭𝐞𝐬, 𝐘𝐨𝐮 𝐒𝐞𝐞 𝐓𝐡𝐞 𝐑𝐞𝐚𝐬𝐨𝐧 𝐓𝐡𝐞𝐧 𝐉𝐨𝐢𝐧 [𝐇𝐞𝐫𝐞](https://t.me/HLV_NETWORK) 🥀"
                 )
         if PRIVATE_BOT_MODE == str(True):
             if not await is_served_private_chat(message.chat.id):
                 await message.reply_text(
-                    "**🔒 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 𝐌𝐮𝐬𝐢𝐜  𝐁𝐨𝐭 🔊**\n\n✅ 𝐎𝐧𝐥𝐲 𝐅𝐨𝐫 𝐀𝐮𝐭𝐡𝐨𝐫𝐢𝐳𝐞𝐝 𝐂𝐡𝐚𝐭𝐬 𝐅𝐫𝐨𝐦 𝐓𝐡𝐞 [𝐎𝐰𝐧𝐞𝐫](https://t.me/BikashHalder) . 🌷 𝐀𝐬𝐤 𝐌𝐲 👑 𝐎𝐰𝐧𝐞𝐫 𝐓𝐨 𝐀𝐥𝐥𝐨𝐰 𝐘𝐨𝐮𝐫 𝐂𝐇𝐚𝐭 𝐅𝐫𝐢𝐬𝐭 🌸"
+                    "**🔒 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 𝐌𝐮𝐬𝐢𝐜  𝐁𝐨𝐭 🔊**\n\n✅ 𝐎𝐧𝐥𝐲 𝐅𝐨𝐫 𝐀𝐮𝐭𝐡𝐨𝐫𝐢𝐳𝐞𝐝 𝐂𝐡𝐚𝐭𝐬 𝐅𝐫𝐨𝐦 𝐓𝐡𝐞 [𝐎𝐰𝐧𝐞𝐫](https://t.me/villen_012) . 🌷 𝐀𝐬𝐤 𝐌𝐲 👑 𝐎𝐰𝐧𝐞𝐫 𝐓𝐨 𝐀𝐥𝐥𝐨𝐰 𝐘𝐨𝐮𝐫 𝐂𝐇𝐚𝐭 𝐅𝐫𝐢𝐬𝐭 🌸"
                 )
                 return await app.leave_chat(message.chat.id)
         if await is_commanddelete_on(message.chat.id):
