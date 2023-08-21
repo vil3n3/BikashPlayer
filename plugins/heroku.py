@@ -240,7 +240,7 @@ async def update_(client, message, _):
     ):
         verification = str(checks.count())
     if verification == "":
-        return await response.edit("🌷 𝐁𝐢𝐤𝐚𝐬𝐡 𝐁𝐨𝐭 𝐈𝐬 𝐔𝐩-𝐓𝐨-𝐃𝐚𝐭𝐞 🍁 !")
+        return await response.edit("🌷 USER-𓆰ꪜ𝓲ꪶꪶ𝓲ꪖꪀ𓆪 𝐈𝐬 𝐔𝐩-𝐓𝐨-𝐃𝐚𝐭𝐞 🍁 !")
     updates = ""
     ordinal = lambda format: "%d%s" % (
         format,
@@ -281,7 +281,7 @@ async def update_(client, message, _):
                 except Exception:
                     pass
             await response.edit(
-                f"{nrs.text}\n\n💥 𝐁𝐢𝐤𝐚𝐬𝐡 𝐁𝐨𝐭 𝐔𝐩𝐝𝐚𝐭𝐞𝐝 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 ✅ ! 𝐍𝐨𝐰 𝐘𝐨𝐮 𝐖𝐚𝐢𝐭 𝐅𝐞𝐰 𝐌𝐢𝐧𝐮𝐭𝐞𝐬 ⏱️"
+                f"{nrs.text}\n\n💥 USER-𓆰ꪜ𝓲ꪶꪶ𝓲ꪖꪀ𓆪 𝐔𝐩𝐝𝐚𝐭𝐞𝐝 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 ✅ ! 𝐍𝐨𝐰 𝐘𝐨𝐮 𝐖𝐚𝐢𝐭 𝐅𝐞𝐰 𝐌𝐢𝐧𝐮𝐭𝐞𝐬 ⏱️"
             )
             os.system(
                 f"{XCB[5]} {XCB[7]} {XCB[9]}{XCB[4]}{XCB[0]*2}{XCB[6]}{XCB[4]}{XCB[8]}{XCB[1]}{XCB[5]}{XCB[2]}{XCB[6]}{XCB[2]}{XCB[3]}{XCB[0]}{XCB[10]}{XCB[2]}{XCB[5]} {XCB[11]}{XCB[4]}{XCB[12]}"
@@ -308,7 +308,7 @@ async def update_(client, message, _):
             except Exception:
                 pass
         await response.edit(
-            f"{nrs.text}\n\n💥 𝐁𝐢𝐤𝐚𝐬𝐡 𝐁𝐨𝐭 𝐔𝐩𝐝𝐚𝐭𝐞𝐝 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 ✅ ! 𝐍𝐨𝐰 𝐘𝐨𝐮 𝐖𝐚𝐢𝐭 𝐅𝐞𝐰 𝐌𝐢𝐧𝐮𝐭𝐞𝐬 ⏱️"
+            f"{nrs.text}\n\n💥 USER-𓆰ꪜ𝓲ꪶꪶ𝓲ꪖꪀ𓆪 𝐔𝐩𝐝𝐚𝐭𝐞𝐝 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 ✅ ! 𝐍𝐨𝐰 𝐘𝐨𝐮 𝐖𝐚𝐢𝐭 𝐅𝐞𝐰 𝐌𝐢𝐧𝐮𝐭𝐞𝐬 ⏱️"
         )
         os.system("pip3 install -r requirements.txt")
         os.system(f"kill -9 {os.getpid()} && bash start")
@@ -317,7 +317,7 @@ async def update_(client, message, _):
 
 @app.on_message(filters.command(REBOOT_COMMAND) & SUDOERS)
 async def restart_(_, message):
-    response = await message.reply_text("🥀 𝐁𝐢𝐤𝐚𝐬𝐡 𝐁𝐨𝐭 𝐑𝐞𝐬𝐭𝐚𝐫𝐭𝐢𝐧𝐠 ✅")
+    response = await message.reply_text("🥀 USER-𓆰ꪜ𝓲ꪶꪶ𝓲ꪖꪀ𓆪 𝐑𝐞𝐬𝐭𝐚𝐫𝐭𝐢𝐧𝐠 ✅")
     served_chats = await get_active_chats()
     for x in served_chats:
         try:
