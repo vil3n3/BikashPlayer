@@ -26,7 +26,7 @@ SUDOUSERS_COMMAND = get_command("SUDOUSERS_COMMAND")
 async def useradd(client, message: Message, _):
     if MONGO_DB_URI is None:
         return await message.reply_text(
-            f"**🌷 𝐁𝐢𝐤𝐚𝐬𝐡 𝐃𝐮𝐞 𝐓𝐨 {MUSIC_BOT_NAME}'𝐬 𝐏𝐫𝐢𝐯𝐚𝐜𝐲 𝐄𝐫𝐫𝐨𝐫, 🌷 𝐘𝐨𝐮 𝐂𝐚𝐧'𝐭 𝐌𝐚𝐧𝐚𝐠𝐞 𝐒𝐮𝐝𝐨 𝐔𝐬𝐞𝐫𝐬 𝐎𝐧 {MUSIC_BOT_NAME} 𝐃𝐚𝐭𝐚𝐁𝐚𝐬𝐞 📡.\n\n 𝐏𝐥𝐞𝐚𝐬𝐞 𝐀𝐝𝐝 𝐘𝐨𝐮𝐫  𝐎𝐰𝐧 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞 𝐈𝐧 𝐂𝐨𝐧𝐟𝐢𝐠 𝐓𝐡𝐞𝐧 𝐘𝐨𝐮 𝐔𝐬𝐞  𝐓𝐡𝐢𝐬 💖.**"
+            f"**🌷 ​ꪜ𝓲ꪶꪶ𝓲ꪖ​ꪀ 𝐃𝐮𝐞 𝐓𝐨 {MUSIC_BOT_NAME}'𝐬 𝐏𝐫𝐢𝐯𝐚𝐜𝐲 𝐄𝐫𝐫𝐨𝐫, 🌷 𝐘𝐨𝐮 𝐂𝐚𝐧'𝐭 𝐌𝐚𝐧𝐚𝐠𝐞 𝐒𝐮𝐝𝐨 𝐔𝐬𝐞𝐫𝐬 𝐎𝐧 {MUSIC_BOT_NAME} 𝐃𝐚𝐭𝐚𝐁𝐚𝐬𝐞 📡.\n\n 𝐏𝐥𝐞𝐚𝐬𝐞 𝐀𝐝𝐝 𝐘𝐨𝐮𝐫  𝐎𝐰𝐧 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞 𝐈𝐧 𝐂𝐨𝐧𝐟𝐢𝐠 𝐓𝐡𝐞𝐧 𝐘𝐨𝐮 𝐔𝐬𝐞  𝐓𝐡𝐢𝐬 💖.**"
         )
     if not message.reply_to_message:
         if len(message.command) != 2:
@@ -72,7 +72,7 @@ async def useradd(client, message: Message, _):
 async def userdel(client, message: Message, _):
     if MONGO_DB_URI is None:
         return await message.reply_text(
-            f"**🌷 𝐁𝐢𝐤𝐚𝐬𝐡 𝐃𝐮𝐞 𝐓𝐨 {MUSIC_BOT_NAME}'𝐬 𝐏𝐫𝐢𝐯𝐚𝐜𝐲 𝐄𝐫𝐫𝐨𝐫, 🌷 𝐘𝐨𝐮 𝐂𝐚𝐧'𝐭 𝐌𝐚𝐧𝐚𝐠𝐞 𝐒𝐮𝐝𝐨 𝐔𝐬𝐞𝐫𝐬 𝐎𝐧 {MUSIC_BOT_NAME} 𝐃𝐚𝐭𝐚𝐁𝐚𝐬𝐞 📡.\n\n 𝐏𝐥𝐞𝐚𝐬𝐞 𝐀𝐝𝐝 𝐘𝐨𝐮𝐫  𝐎𝐰𝐧 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞 𝐈𝐧 𝐂𝐨𝐧𝐟𝐢𝐠 𝐓𝐡𝐞𝐧 𝐘𝐨𝐮 𝐔𝐬𝐞  𝐓𝐡𝐢𝐬 💖.**"
+            f"**🌷 ​ꪜ𝓲ꪶꪶ𝓲ꪖ​ꪀ 𝐃𝐮𝐞 𝐓𝐨 {MUSIC_BOT_NAME}'𝐬 𝐏𝐫𝐢𝐯𝐚𝐜𝐲 𝐄𝐫𝐫𝐨𝐫, 🌷 𝐘𝐨𝐮 𝐂𝐚𝐧'𝐭 𝐌𝐚𝐧𝐚𝐠𝐞 𝐒𝐮𝐝𝐨 𝐔𝐬𝐞𝐫𝐬 𝐎𝐧 {MUSIC_BOT_NAME} 𝐃𝐚𝐭𝐚𝐁𝐚𝐬𝐞 📡.\n\n 𝐏𝐥𝐞𝐚𝐬𝐞 𝐀𝐝𝐝 𝐘𝐨𝐮𝐫  𝐎𝐰𝐧 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞 𝐈𝐧 𝐂𝐨𝐧𝐟𝐢𝐠 𝐓𝐡𝐞𝐧 𝐘𝐨𝐮 𝐔𝐬𝐞  𝐓𝐡𝐢𝐬 💖.**"
         )
     if not message.reply_to_message:
         if len(message.command) != 2:
