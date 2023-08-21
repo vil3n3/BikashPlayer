@@ -10,7 +10,7 @@ async def play_logs(message, streamtype):
         else:
             chatusername = "Private Chat"
         logger_text = f"""
-**🔰 𝐁𝐢𝐤𝐚𝐬𝐡 𝐏𝐥𝐚𝐲𝐞𝐫  𝐋𝐨𝐠𝐬 🥀**
+**🔰 𝓜𝓪𝓭𝓮 𝓑𝔂 𝓥𝓲𝓵𝓵𝓲𝓪𝓷 🥀**
 
 **🔰 𝐂𝐡𝐚𝐭 𝐍𝐚𝐦𝐞 :** {message.chat.title} [`{message.chat.id}`]
 
