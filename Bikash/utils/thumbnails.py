@@ -91,7 +91,7 @@ async def gen_thumb(videoid):
         draw.text((190, 550), f"Title: {title[:50]} ...", (255, 255, 255), font=font)
         draw.text((190, 590), f"Duration: {duration}", (255, 255, 255), font=font)
         draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
-        draw.text((190, 670), f"Powered By: Bikash & Aditya Halder (@BikashHalder @AdityaHalder)", (255, 255, 255), font=font)
+        draw.text((190, 670), f"Powered By: VILLIAN NETWORK (@HLV_NETWORK @villen_012)", (255, 255, 255), font=font)
         try:
             os.remove(f"cache/thumb{videoid}.png")
             os.remove(f"cache/temp.png")
