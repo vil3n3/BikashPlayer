@@ -18,11 +18,11 @@ def start_pannel(_):
         [
             InlineKeyboardButton(
                 text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
-                url=f"https://t.me/BikashGedgetsTech",
+                url=f"https://t.me/villen_012",
             ),
             InlineKeyboardButton(
                 text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
-                url=f"https://t.me/bgt_chat",
+                url=f"https://t.me/HLV_NETWORK",
             )
         ],
         [
@@ -45,10 +45,10 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         [
             InlineKeyboardButton(
                 text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
-                url=f"https://t.me/BikashGedgetsTech"),
+                url=f"https://t.me/villen_012"),
             InlineKeyboardButton(
                 text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
-                url=f"https://t.me/bgt_chat")
+                url=f"https://t.me/HLV_NETWORK")
         ],
         [
             InlineKeyboardButton(
